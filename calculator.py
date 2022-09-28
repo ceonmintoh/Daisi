@@ -1,12 +1,17 @@
+#This is an open source simple gui calculator by Nelson JM
+#@author: NELSON JOSEPH MINTOH
+#COMPANY:Nelson ICT Services Gembu
+# mail: support@nelsonict.org.ng
+# ####
 from tkinter import*
 
 me=Tk()
 me.geometry("354x460")
-me.title("Gemkrook Calculator")
-melabel = Label(me,text="CALCULATOR",bg='White',font=("Times",30,'bold'))
+me.title("747 Calculator")
+melabel = Label(me,text="GEMULATE",bg='White',font=("TCimes",30,'bold'))
 melabel.pack(side=TOP)
-me.config(background='Dark gray')
-
+me.config(background='Blue')
+me.resizable = False
 textin=StringVar()
 operator=""
 
